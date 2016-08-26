@@ -14,6 +14,9 @@
 		A718EA981AB9FB2E00229225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A718EA971AB9FB2E00229225 /* Images.xcassets */; };
 		A718EA9B1AB9FB2E00229225 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A718EA991AB9FB2E00229225 /* LaunchScreen.xib */; };
 		A718EAA71AB9FB2F00229225 /* BmiCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A718EAA61AB9FB2F00229225 /* BmiCalculatorTests.m */; };
+		A718EAB21ABA03B300229225 /* UsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718EAB11ABA03B300229225 /* UsViewController.m */; };
+		A718EAB51ABA03C700229225 /* MetricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718EAB41ABA03C700229225 /* MetricViewController.m */; };
+		A718EABD1ABA548400229225 /* bmi_imperial.png in Resources */ = {isa = PBXBuildFile; fileRef = A718EABC1ABA548400229225 /* bmi_imperial.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		A718EAA01AB9FB2E00229225 /* BmiCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmiCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A718EAA51AB9FB2F00229225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A718EAA61AB9FB2F00229225 /* BmiCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmiCalculatorTests.m; sourceTree = "<group>"; };
+		A718EAB01ABA03B300229225 /* UsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsViewController.h; sourceTree = "<group>"; };
+		A718EAB11ABA03B300229225 /* UsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsViewController.m; sourceTree = "<group>"; };
+		A718EAB31ABA03C700229225 /* MetricViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetricViewController.h; sourceTree = "<group>"; };
+		A718EAB41ABA03C700229225 /* MetricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetricViewController.m; sourceTree = "<group>"; };
+		A718EAB91ABA221300229225 /* DataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDelegate.h; sourceTree = "<group>"; };
+		A718EABC1ABA548400229225 /* bmi_imperial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmi_imperial.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				A718EA971AB9FB2E00229225 /* Images.xcassets */,
 				A718EA991AB9FB2E00229225 /* LaunchScreen.xib */,
 				A718EA8A1AB9FB2E00229225 /* Supporting Files */,
+				A718EAB01ABA03B300229225 /* UsViewController.h */,
+				A718EAB11ABA03B300229225 /* UsViewController.m */,
+				A718EAB31ABA03C700229225 /* MetricViewController.h */,
+				A718EAB41ABA03C700229225 /* MetricViewController.m */,
+				A718EAB91ABA221300229225 /* DataDelegate.h */,
+				A718EABC1ABA548400229225 /* bmi_imperial.png */,
 			);
 			path = BmiCalculator;
 			sourceTree = "<group>";
@@ -200,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A718EA961AB9FB2E00229225 /* Main.storyboard in Resources */,
+				A718EABD1ABA548400229225 /* bmi_imperial.png in Resources */,
 				A718EA9B1AB9FB2E00229225 /* LaunchScreen.xib in Resources */,
 				A718EA981AB9FB2E00229225 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A718EAB21ABA03B300229225 /* UsViewController.m in Sources */,
+				A718EAB51ABA03C700229225 /* MetricViewController.m in Sources */,
 				A718EA931AB9FB2E00229225 /* ViewController.m in Sources */,
 				A718EA901AB9FB2E00229225 /* AppDelegate.m in Sources */,
 				A718EA8D1AB9FB2E00229225 /* main.m in Sources */,
@@ -414,6 +432,7 @@
 				A718EAAC1AB9FB2F00229225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A718EAAD1AB9FB2F00229225 /* Build configuration list for PBXNativeTarget "BmiCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +441,7 @@
 				A718EAAF1AB9FB2F00229225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

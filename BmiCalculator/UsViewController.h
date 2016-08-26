@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UsViewController.h
 //  BmiCalculator
 //
 //  Created by Erick Barbosa on 3/18/15.
@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DataDelegate.h"
 
-@interface ViewController : UIViewController<DataDelegate>
-
+@interface UsViewController : UIViewController<DataDelegate>
 
 
 @end
-
